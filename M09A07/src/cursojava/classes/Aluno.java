@@ -63,18 +63,13 @@ public class Aluno {
 			return " Aluno Reprovado";
 		}
 	}
-	
-	
+
 	public String ImprimeResultado() {
-		String n1 = String.valueOf(nota1);
-		String n2 = String.valueOf(nota2);
-		String n3 = String.valueOf(nota3);
-		String n4 = String.valueOf(nota4);
 		String media = String.valueOf(this.getMediaNota());
-		
-		return " Nota 1: "+ n1 + "\n Nota 2:"+ n2 + "\n Nota 3:"+ n3 +"\n Nota 4:"+ n4 + "\n Média:" + media +"\nStatus:" + this.getStatusAluno();
-		
+
+		return " Nota 1: " + getNota1() + "\n Nota 2:" + getNota2() + "\n Nota 3:" + getNota3() + "\n Nota 4:" + getNota4()
+				+ "\n Média:" + media + "\nStatus:" + this.getStatusAluno();
+
 	}
 
-	
 }
