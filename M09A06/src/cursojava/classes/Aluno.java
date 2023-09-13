@@ -58,7 +58,7 @@ public class Aluno {
 	}
 
 	public double getMediaNota() {
-		return (nota1 + nota2 + nota3 + nota4) / 4;
+		return (getNota1() + getNota2() + getNota3() + getNota4()) / 4;
 	}
 
 	@Override
