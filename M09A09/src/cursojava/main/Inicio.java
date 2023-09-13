@@ -33,10 +33,10 @@ public class Inicio {
 				String nomeAluno = JOptionPane.showInputDialog("Nome do " + i + " aluno");
 				aluno.setNome(nomeAluno);
 
-				String nota1 = JOptionPane.showInputDialog("Qual é a Nota: 1  do aluno " + aluno.getNome());
-				String nota2 = JOptionPane.showInputDialog("Qual é a Nota: 2  do aluno " + aluno.getNome());
-				String nota3 = JOptionPane.showInputDialog("Qual é a Nota: 3  do aluno " + aluno.getNome());
-				String nota4 = JOptionPane.showInputDialog("Qual é a Nota: 4  do aluno " + aluno.getNome());
+				String nota1 = JOptionPane.showInputDialog("Qual é a Nota a 1º  do aluno " + aluno.getNome() + "?");
+				String nota2 = JOptionPane.showInputDialog("Qual é a Nota a 2º  do aluno " + aluno.getNome() + "?");
+				String nota3 = JOptionPane.showInputDialog("Qual é a Nota a 3º  do aluno " + aluno.getNome() + "?");
+				String nota4 = JOptionPane.showInputDialog("Qual é a Nota a 4º  do aluno " + aluno.getNome() + "?");
 
 				/* Atribuindo os valores das variaveis no atributo do objeto */
 				aluno.setN1(Double.parseDouble(nota1));
