@@ -21,7 +21,7 @@ public class ContaBancaria {
 	}
 
 	public String verSaldoAtual() {
-		return "Saldo atual é = " + this.saldo;
+		return "Saldo atual é = R$" + this.saldo;
 	} 
 	public String getDescricao() {
 		return descricao;
